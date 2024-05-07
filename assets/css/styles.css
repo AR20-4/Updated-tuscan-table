@@ -916,7 +916,7 @@ margin-left: 8px;
   }
 
   .home__container{
-    background-image: url(assets/img/pexels-roland-dumke-943700.jpg);
+    background-image: url(/assets/img/pexels-roland-dumke-943700.jpg);
     justify-content: center;
     align-items: center;
     width: 100%;
