@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tuscan Table Ristorante</title>
+        <!--========== BOX ICONS ==========-->
+         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+          <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/pexels-magda-ehlers-1331734.jpg" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+         <!-- =============== SWIPER CSS ===============-->
+         <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+       
+         <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
+
+    <body>
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">The Tuscan Table</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Our Story</a></li>
+                        <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
+                        <li class="nav__item"><a href="#Market" class="nav__link">Market</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Reserve a Table</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact Us</a></li>
+
+                        <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+               
+                    <img src="assets/img/tuscantable-white-trans-08 copy.png" alt="" class="home__img">
+            </div>
+           
+           
+            <div class="intro_wrapper">
+                <h3 class="intro_info">Would you like to get whisked away to the Italian countryside but don’t have the time or the money? How about enjoying an equally exciting experience right here in your backyard? The Tuscan Table invites you to join us for an unforgettable experience that delights all the senses. From the moment you walk in you’ll be surprised by all the sights, sounds, and smells of a classic Italian restaurant. 
+                </h3>
+            
+            <h2 class="intro_CTA">Welcome! Your table is waiting. 
+            </h2>
+            <div>
+                <a href="#services" 
+                   class="button">Click for Reservations</a>
+            </div>
+        </div>
+    </section>
+            
+            <!--========== ABOUT/Our Story ==========-->
+            <section class="about section bd-container" id="about">
+               
+                <span class="section-subtitle about__initial">The Story of Us</span>
+                
+                <div class="about__container  bd-grid">
+                    <div class="about__data">
+                    
+                        <img src="assets/img/Mama_Lu.jpg" alt="" class="about__img">
+                       
+                        <h2 class="section-title about__initial">Our concept </h2>
+                        <div class="about_ma">
+                        <p class="about__description"> We are classy without being pretentious. The concept of our restaurant is unique but steeped with authenticity, a deep respect for food, and an understanding of the communal connection that comes with gathering around a table to share a meal. 
+                            <br><br>
+                            We harken back to a time when every growing city in the Midwest had a supper club in their community. A supper club is a place to get a great meal while being in even better company. 
+                            <br><br>
+                            We serve a prix fixe menu that rotates monthly created by Italian American Chef Tony Lepore. The entire menu of bread, appetizers, soup, salad, entree, dessert, coffee, and drink is  $45.00 per person + tax and gratuity.  (We’re Italian I promise you will not leave hungry.) 
+                            <br><br>
+                            We’re here to offer a welcoming environment as you share an unforgettable dining experience with the ones you care about the most. 
+                            </p> 
+                            <br><br>
+
+                            <div class="about_pic">
+                                <img src="assets/img/pastahome.jpg" alt="" class="about__img">
+                            </div>
+                        </div>
+
+                        <h2 class="section-title about__initial">Meet The Chef <br> Tony Lepore  </h2>
+
+                        <div class="about__chef">
+                        <img src="assets/img/chef_tony.png" alt="" class="about__img_main">
+
+                        <p class="about__description"> Here at the Tuscan Table Ristorante Chef Tony Lepore delivers classic Sicilian and Italian flavors with a rustic and elegant flare.
+                            <br><br>The Tuscan table is the perfect space for any occasion, featuring a sophisticated and robust Italian menu in a warm, casual, and inviting environment. Chef Tony’s dishes are prepared with love. Using traditional techniques for making pasta from scratch and combining classical culinary training, Chef Tony brings to light family recipes that have been passed down for generations.</p>         
+                         </div>
+                         <italics class="saying">Dalla nostra tavola alla tua // From our table to yours.
+                        </italics>    
+                    </div>
+                </div> 
+            </section>
+            
+             <!--========== Photo swiper ==========-->
+             <main class="main">
+                <section class=" popular section" id="popular">
+                    <div class="container">
+                        <span class="section__subtitle">Here at</span>
+                        <h2 class="section__title">
+                            The Tuscan Table<span>.</span>
+                        </h2>
+            
+                        <div class="popular__container swiper">
+                            <div class="swiper-wrapper">
+                                <article class="popular__card swiper-slide">
+                                    <h3 class="popular__title">
+                                        Angel Hair Pasta
+                                       </h3>
+                                   <img src="assets/IMG/angelhair.jpg" alt="angel hair" class="popular__img">
+                                   <div class="popular__data">
+                                       
+                                       <p class="popular__description">
+                                        Handmade Angel hair pasta made fresh to order!
+                                       </p>
+                                   </div>
+                                </article>
+            
+                                 <article class="popular__card swiper-slide">
+                                    <h3 class="popular__title">
+                                        Chicken Alfredo
+                                    </h3>
+                                    <img src="assets/IMG/chickenbroccolialfredo.jpg" alt="chicken broccoli alfredo" class="popular__img">
+            
+                                    <div class="popular__data">
+                                        
+                                        <p class="popular__description">
+                                        This dish features succulent chicken, and crisp broccoli with a creamy rich cheese sauce, it's perfect to top any style of pasta.
+                                        </p>
+            
+                                    </div>
+                                 </article>
+            
+                                 <article class="popular__card swiper-slide">
+                                    <h3 class="popular__title">
+                                        Apple Cake
+                                    </h3>
+                                    <img src="assets/IMG/applecake.jpeg" alt="apple cake" class="popular__img">
+            
+                                    <div class="popular__data">
+                                       
+                                        <p class="popular__description">
+                                        One of our most popular dessert is this amazing spiced apple cake that comes drizzled with a warm caramel sauce. 
+                                        </p>
+            
+                                    </div>
+                                 </article>
+            
+                                 <article class="popular__card swiper-slide">
+                                    <h3 class="popular__title">
+                                        Fresh Baked Bread 
+                                    </h3>
+                                    <img src="assets/IMG/freshbakedbread.jpeg" alt="fresh baked bread" class="popular__img">
+            
+                                    <div class="popular__data">
+                                       
+                                        <p class="popular__description">
+                                       We bake our bread fresh every day.
+                                        </p>
+            
+                                    </div>
+                                 </article>
+            
+                                 <article class="popular__card swiper-slide">
+                                    <h3 class="popular__title">
+                                        Charcuterie
+                                    </h3>
+                                    <img src="assets/IMG/charcuterie.jpg" alt="charcuterie"  class="popular__img">
+            
+                                    <div class="popular__data">
+                                       
+                                        <p class="popular__description">
+                                       The best assortment of cheeses, cured salumi and savory olives.
+                                        </p>
+            
+                                    </div>
+                                 </article>
+            
+                                 <article class="popular__card swiper-slide">
+                                    <h3 class="popular__title">
+                                        Cavatelli
+                                    </h3>
+                                    <img src="assets/IMG/cavatelli.jpg" alt="cavatelli" class="popular__img">
+            
+                                    <div class="popular__data">
+                                       
+                                        <p class="popular__description">
+                                    This is a classic dish with fresh pasta and a savory rich red sauce.
+                                        </p>
+            
+                                    </div>
+                                 </article>
+            
+                                 <article class="popular__card swiper-slide">
+                                    <h3 class="popular__title">
+                                        Capellini
+                                    </h3>
+                                    <img src="assets/IMG/capellini.jpeg" alt="capellini" class="popular__img">
+            
+                                    <div class="popular__data">
+                                       
+                                        <p class="popular__description">
+                                        Fresh pasta is what we do best!
+                                        </p>
+            
+                                    </div>
+                                 </article>
+            
+                                 <article class="popular__card swiper-slide">
+                                    <h3 class="popular__title">
+                                        Purple Garlic
+                                    </h3>
+                                    <img src="assets/IMG/garlic.jpeg" alt="garlic" class="popular__img">
+            
+                                    <div class="popular__data">
+                                      
+                                        <p class="popular__description">
+                                      Real Italian's know that using purple garlic gives you the best flavor.
+                                        </p>
+            
+                                    </div>
+                                 </article>
+            
+                                 <article class="popular__card swiper-slide">
+                                    <h3 class="popular__title">
+                                        Shrimp Scampi
+                                    </h3>
+                                    <img src="assets/IMG/shrimpscampi.jpeg" alt="shrimp scampi" class="popular__img">
+            
+                                    <div class="popular__data">
+                                       
+                                        <p class="popular__description">
+                                         Hey! Forgethabbooit this Shrimp Scampi is crazy good!
+                                        </p>
+            
+                                    </div>
+                                 </article>
+                            </div>
+                       
+                        <div class="swiper_buttons">
+                            <div class="swiper-button-next">
+                                <i class='bx bx-chevron-right'></i>
+                            </div>
+                            <div class="swiper-button-prev">
+                                <i class='bx bx-chevron-left'></i>
+                            </div>
+                        </div>
+            
+                    </div>  
+                    </div>
+                </section>
+            </main>
+
+            <!--========== MENU ==========-->
+             <section class="menu section bd-container" id="menu">
+                <span class="section-subtitle">To Eat</span>
+                <h2 class="section-title">We Feature A Monthly Rotating Menu (May)</h2>
+
+                <div class="menus__container bd-grid">
+                    <div class="menus">
+                        <img src="assets/img/February_2024.svg" alt="" class="menu__info">
+                    </div>    
+                </div>
+            </section>
+
+
+             <!--========== Store ==========-->
+              <section class="menu section bd-container" id="menu">
+                <span class="section-subtitle">La Piazza</span>
+                <h2 class="section-title">Market Place (To Come Soon)</h2>
+
+                <div class="menu__container bd-grid">
+                    <div class="menu__content">
+                        <img src="assets/img/pesto.png" alt="" class="menu__img">
+                        <h3 class="menu__name">Pasta Sauce</h3>
+                        <span class="menu__detail">homemade pesto</span>
+                        <span class="menu__price">To Come Soon</span>
+                       
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/pastapackage.png" alt="" class="menu__img">
+                        <h3 class="menu__name">Rigatoni Pasta</h3>
+                        <span class="menu__detail">homemade pasta</span>
+                        <span class="menu__price">To Come Soon</span>
+                        
+                    </div>
+                    
+                    <div class="menu__content">
+                        <img src="assets/img/linguine.png" alt="" class="menu__img">
+                        <h3 class="menu__name">Linguine Pasta</h3>
+                        <span class="menu__detail">homemade pasta</span>
+                        <span class="menu__price">To Come Soon</span>
+                       
+                    </div>
+                </div>
+            </section>
+
+            <!--===== Reserve a Table =======-->
+            <section class="app section bd-container" id="services">
+                <div class="app__container bd-grid">
+                    
+                    <div class="app__data">
+                        <span class="section-subtitle app__initial">Reservations</span>
+                        <h2 class="section-title app__initial">Please fill out the form <br> below to book a table</h2>
+
+                        <div class="contactForm_Box">
+                            <div class="contactForm">
+                                <h3>Make a Reservation</h3>
+                                <form action="https://formsubmit.co/tuscantable2023@gmail.com" method="POST">
+                                    <input type="hidden" name="_subject" value="New Reservation">
+                                <div class="inputBox">
+                                    <input type="text" name="Name" placeholder="Name" required>
+                                </div>
+                            
+                                <div class="inputBox">
+                                    <input type="text"  name="Phone Number" placeholder="Phone Number" required>
+                                </div>
+
+                                <div class="inputBox">
+                                    <input type="text"  name="Party Size" placeholder="How many in your party?" required>
+                                </div>
+
+                                 <div class="inputBox">
+                                    <input type="text" name="Date" placeholder="Date (Sundays Only)" required>
+                                </div>
+
+                                <div class="inputBox">
+                                    <input type="text" name="Time" placeholder="Reservation time" required>
+                                </div>
+
+                                <div class="inputBox">
+                                    <input type="email" name="Email" placeholder="Email" required>
+                                </div>
+                            
+                                <div class="inputBox">
+                                    <textarea placeholder="Message" name="Message"></textarea>
+                                </div>
+                                <div class="inputBox">
+                                    <button type="submit" class="button">Send</button>
+                               </div>
+                               
+                            </div>
+                        </div>
+                            </form>
+                    </div> 
+
+                    <div class="res__description_wrapper">
+                            <div class="res__description"> We serve a prix fixe menu that rotates monthly created by Italian American Chef Tony Lepore. The entire menu of bread, appetizers, soup, salad, entree, dessert, coffee, and drink is  $45.00 per person + tax and gratuity.  (We’re Italian I promise you will not leave hungry.) 
+                                <br><br>
+                                Our Establishment is only open to reservations on Sundays currently to honor the Italian tradition of having a Sunday Supper with your loved ones.
+                                <br><br>
+                                We offer a refined and sophisticated atmosphere, that we've curated especially for our adult clientele. If you have someone under 21 in your party please request ahead of the time to see if we can make accommodations.
+                                <br><br> 
+                                Serving the freshest ingredients is of the utmost importance to Chef Tony so we are not able to accommodate last-minute reservations, our apologies. Thursday is the latest we would like to receive any changes for the following Sunday service. We appreciate your understanding. This is how we are about to make our experience exceptional and affordable. 
+                                <br><br>
+                                We are a family-owned and operated business and would appreciate being notified of cancellations as soon as possible. 
+                                <br><br>
+                                If you fill out a reservation request online please allow us 24 hours to confirm. Please and Thank-you. 
+                            </p> 
+                            <br><br>
+                        </div> 
+                    </div>          
+            </section>
+
+             <!--==================== QUESTIONS ====================-->
+             <div class="question__wrapper">
+             <div class="contact_pic">
+                <img src="assets/img/pexels-anna-guerrero-2998943 copy.jpg" alt="" class="contact__img">
+            </div>
+                  
+             <section class="questions section" id="faqs">
+                <h2 class="section__title-center questions__title container">
+                    COMMONLY ASKED QUESTIONS 
+                </h2>
+
+                <div class="questions__container container grid">
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    How does it work? 
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    You can call, text, or fill out our online form to make a reservation. Give us the important information like: Your name, how many are in your party, what time and day you’d like to join us, whether you’re celebrating anything,  and if you have any allergens. We will follow up with you shortly, give us at least 24 hours to confirm your reservation. We look forward to hosting you and your family. 
+      
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    What’s included in the menu price?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    We serve a prix fixe menu that rotates monthly created by Italian American Chef Tony Lepore. The entire menu of bread, appetizers, soup, salad, entree, dessert, coffee, and drink is  $45.00 per person + tax and gratuity.  (We’re Italian I promise you will not leave hungry. )
+
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Is gratuity included?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Gratuity is not included in the menu price but is greatly appreciated by our hard-working staff. Our Front of house manager is Tony’s wife Tracey. She works super hard both as the star of the floor and behind the scenes organizing all the reservations.  
+                                </p>
+                            </div>
+                        </div>
+                  
+
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Do you accommodate people with allergens or gluten sensitivity?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Given enough time, we can accommodate allergens although, with the nature of a working kitchen, we can not guarantee any issues with severe allergens, cross contact is always a concern. Rest assured we will do our best to keep you safe and happy. 
+
+Gluten-sensitive people might not have issues with our pasta. We source our semolina flour directly from Italy and find that most people who have had a bad experience with gluten don’t experience the same issues with our pasta. 
+
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Do you offer wine or spirits?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Currently, we do not. However, soon we will be offering an amazing selection of wine and beer. In the meantime feel free to include in your reservation that you would like to bring in your own bottle. 
+
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Can I bring my children? 
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    We can accommodate well-behaved and adventurous eaters as along as we are informed ahead of time. 
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Do you offer catering?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Yes and no, we currently don’t do in-person off-site catering but If you would like to order ahead of time an entire cake or a sheet pan of our amazing lasagna we can certainly do that for you. 
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Can I host an event in your space?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    We would love to host a large event for you given the appropriate time to make all the arrangements. Reach out to us personally for more details if this is something you’re interested in.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+              <!--========== Reviews  <input type="submit" value="Send"> ==========-->
+              <section class=" services section bd-container">
+                <span class="section-subtitle">Reviews</span>
+
+                <div class="services__container  bd-grid">
+                    <div class="services__content">
+                        <h3 class="services__title">Excellent food</h3>
+                        <p class="services__description">We offer our guests excellent quality ingredients that make the best and most delicious food in the city.</p>
+                    </div>
+
+                    <div class="services__content">
+                        <h3 class="services__title">Great Atmosphere</h3>
+                        <p class="services__description">A warm environment with an even friendlier staff. You'll receive genuine hospitality and be treated like real family.</p>
+                    </div>
+
+                    <div class="services__content">
+                        <h3 class="services__title">Amazing Value</h3>
+                        <p class="services__description">Homemade classic dishes grandmothers create, filled with love, all for a reasonable price.</p>
+                    </div>
+                </div>
+
+                <div class="news__wrapper">
+                <h2 class="section-title about__initial news_title">Explore More About Us</h2>
+                <div>
+                    <a href="https://www.greenfieldreporter.com/2023/08/04/tuscan-table-chef-celebrates-italian-roots-through-new-restaurant/" 
+                       class="button news__buttons">Greenfield Reporter</a>
+                </div>
+
+                <div>
+                    <a href="https://www.hancockedc.com/news-center/p/item/52961/new-italian-restaurant-opens-in-greenfield
+                    " 
+                       class="button news__buttons">Hancock News</a>
+                </div>
+
+                <div>
+                    <a href="https://www.google.com/maps/place/Tuscan+Table+Ristorante/@39.7825142,-85.7788106,17z/data=!3m1!4b1!4m6!3m5!1s0x886b311c8dee4b6f:0x526f936c1d213f95!8m2!3d39.7825142!4d-85.7762357!16s%2Fg%2F11vds3s0mz?entry=ttu " 
+                       class="button news__buttons">Google Maps</a>
+                </div>
+
+            </div>
+            </section>
+
+            <div class="chat_pic">
+                <img src="assets/img/pexels-fauxels-3184183.jpg" alt="" class="chat__img">
+            </div>
+
+            <!--========== CONTACT US ==========-->
+            <section class="contact section bd-container" id="contact">
+                <div class="contact__container bd-grid">
+                    <div class="contact__data">
+                        <span class="section-subtitle contact__initial">Let's talk</span>
+                        <h2 class="section-title contact__initial">Contact us</h2>
+                        <p class="contact__description">If you would like to reserve a table with us or book a private event, please fill out the reservation form and we will get back to you shortly.</p>
+                    </div>
+
+                     <!--== HOURS====-->
+            <section class="hours" id="hours">
+                <div class="content">
+                    <div class="row_hours">
+                        <div class="col50">
+                            <h2 class="titleText"><span>H</span>ours</h2>
+                            <br><b>
+                            <p>  Sundays
+                                <br><b>5pm-9pm
+                                <br><b>
+                                <br><b>By 
+                                <br><b>Reservation
+                                <br><b>Only
+                            </p>
+                        </div>
+                        <div class="col50">
+                            <h2 class="titleText"><span>V</span>isit Us</h2>
+                            <p>275 Center St
+                                <br> Greenfield, IN 46140
+                            </p>
+                        </div>
+                        <div class="col50">
+                            <h2 class="titleText"><span>C</span>all Us</h2>
+                            <p>317.740.5474    
+                            </p>
+                    </div>
+                </div>
+            </section>
+
+                    <div class="contact__button">
+                        <a href="#services" class="button">Contact us now</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section bd-container">
+            <div class="footer__container bd-grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">The Tuscan Table Ristorante</a>
+                    <span class="footer__description">Follow Us on social media!</span>
+                    <div>
+                        <a href="https://www.facebook.com/thetuscantableristorante/" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://www.instagram.com/tuscan_table_ristorante/" class="footer__social"><i class='bx bxl-instagram'></i></a>
+
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Services</h3>
+                    <ul>
+                        <li><a href="#contact" class="footer__link">Catering</a></li>
+                        <li><a href="#contact" class="footer__link">Private Events</a></li>
+                        <li><a href="#menu" class="footer__link">Menu</a></li>
+                        <li><a href="#services" class="footer__link">Reserve your spot</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Reach Out</h3>
+                    <ul>
+                        <li><a href="#services" class="footer__link">Book an event</a></li>
+                        <li><a href="#contact" class="footer__link">Contact us</a></li>
+                       
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Contact</h3>
+                    <ul>
+                        <li>Address</li>
+                        <li>The Tuscan Table</li>
+                       
+                        <li>275 Center St
+                           
+                         <br> Greenfield, IN 46140</li>
+                         <br>
+                         <li>Phone</li>
+                        <li>317.740.5474 </li>
+                        <br>
+                        <li>Email</li>
+                        <li>tuscantable2023@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; 2023 All right reserved. Designed By Rachel Glasgow</p>
+        </footer>
+
+         <!--ADDED*****  ========== SWIPER JS ==========-->
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
