@@ -302,7 +302,8 @@ header.sticky .logo{
 .intro_wrapper{
   display: block;
   min-width: 400px ;
-  margin: 0, 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   justify-content: center;
   align-content: center;
   align-items: center;
@@ -356,11 +357,13 @@ header.sticky .logo{
   margin-bottom: 1.5rem;
 }
 
+.about__description{
+  margin-bottom: 1rem;
+}
+
 .saying{
-  border: 1px solid var(--text-color);
-  padding: 5px;
-  border-radius: 1rem;
-  text-wrap: nowrap;
+color: #486B4E;
+margin-top: 1rem;
 }
 
 /*========== MENU ==========*/
@@ -669,7 +672,19 @@ header.sticky .logo{
 
 
 /*========== RESERVATIONS/ contact ==========*/
+.app__container{
+display: block;
+justify-content: center;
+align-items: center;
+}
+
+.app__data{
+  text-align: left;
+}
 .contact__container{
+  display: block;
+justify-content: center;
+align-items: center;
   text-align: center;
 }
 
@@ -684,8 +699,9 @@ header.sticky .logo{
 }
 
 .contact .contactForm_Box{
-  display: flex;
+  display: block;
   justify-content: center;
+  align-items: center;
 }
 
 .contactForm{
@@ -736,15 +752,18 @@ header.sticky .logo{
   cursor: pointer;
 }
 
+
+
 .res__description_wrapper{
   background: radial-gradient(circle, #cdd7ce 10%, transparent 11%),radial-gradient(circle at bottom left, #cdd7ce 5%, transparent 6%),radial-gradient(circle at bottom right, #cdd7ce 5%, transparent 6%),radial-gradient(circle at top left, #cdd7ce 5%, transparent 6%),radial-gradient(circle at top right, #cdd7ce 5%, transparent 6%);
         background-size: 1em 1em;
         background-color: #eeeeee;
-        
+        margin-top: 2rem;
         padding: .5rem;
         text-align: center;
       
 }
+
 
 .contact__img{
   width: 80%;
@@ -831,7 +850,7 @@ header.sticky .logo{
 .content{
   padding: 22px;
   background-color: #ebebeb;
-  margin-right: 10px;
+  margin-bottom: 2rem;
 }
 
 .row_hours{
@@ -936,7 +955,14 @@ margin-left: 8px;
 
 .about__img{
   margin-top: -60px;
+}
 
+.saying{
+  border: 1px solid var(--text-color);
+  padding: 5px;
+  border-radius: 1rem;
+  text-wrap: nowrap;
+  margin-top: 1rem;
 }
 
   .about__img, .app__img{
@@ -1065,3 +1091,4 @@ margin-left: 8px;
     max-width: 800px;
   }
 }
+
